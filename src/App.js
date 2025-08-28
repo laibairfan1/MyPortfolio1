@@ -4,15 +4,15 @@ import About from "./components/About";
 import Skills from "./components/Skills"; 
 import Certificate from "./components/Certificate"; 
 import Projects from "./components/Projects"; 
-import Education from "./components/Education"; 
 import Footer from "./components/Footer"; 
+import Experience from "./components/Experience"; 
 
 function App() {
   return (
     <div style={{ fontFamily: "Arial, sans-serif", backgroundColor: "#f8f9fa" }}>
       <Home />
       <About />
-      <Education/>
+      <Experience/>
       <Skills />
       <Certificate/>
        <Projects/>
@@ -23,3 +23,4 @@ function App() {
 }
 
 export default App;
+
