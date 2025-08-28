@@ -34,7 +34,7 @@ function Home() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto" style={{ fontSize: "1.1rem" }}>
-              {["Home", "About", "Skills", "Projects", "Education", "Certificate"].map(
+              {["Home", "About", "Skills", "Projects", "Certificate","Experience"].map(
                 (item, idx) => (
                   <Nav.Link
                     key={idx}
@@ -108,7 +108,7 @@ function Home() {
                   View Projects
                 </Button>
                 <a
-                  href="/Laiba Resume.pdf"
+                 href={`${process.env.PUBLIC_URL}/Laiba Resume.pdf`}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
