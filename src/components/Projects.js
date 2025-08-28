@@ -61,7 +61,7 @@ const Projects = () => {
             <Card style={{ backgroundColor: '#18313d', border: 'none', color: 'white', height: '100%' }}>
               <Card.Img
                 variant="top"
-                src="/MyPortfolio1/Notes.png"
+                src="Notes.png"
                 alt="Project 2"
                 style={{ borderBottom: '3px solid #00d8ff' }}
               />
