@@ -73,13 +73,15 @@ const Certificate = () => {
                 <FaCertificate size={50} style={{ color: "#00d8ff" }} className="mb-3" />
                 <h4 className="card-title mb-3" style={{ fontWeight: "bold", color: "#00d8ff" }}>Roadmap To Product Management</h4>
                 <Card.Text>
-                  Certificate in product management fundamentals, 
-                  covering roadmap planning, product lifecycle, market research, and stakeholder collaboration.
+                Certificate in product management fundamentals, covering roadmap planning, product lifecycle,
+                 market research, and stakeholder collaboration.
                 </Card.Text>
                 <div className="mt-3">
                   <span className="badge bg-secondary me-2">Product Roadmap</span>
                   <span className="badge bg-secondary me-2">Strategy</span>
+                  <span className="badge bg-secondary me-2">Market Analysis</span>
                   <span className="badge bg-secondary">Stakeholder Management</span>
+
                 </div>
               </Card.Body>
               <Card.Footer style={{ background: 'transparent', borderTop: 'none' }}>
