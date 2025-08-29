@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const Certificate = () => {
   return (
     <section
-      id="certifications"
+      id="certificate"
       style={{
         padding: "80px 0",
         background: "linear-gradient(135deg, #0f2027, #203a43, #2c5364)",
@@ -73,9 +73,8 @@ const Certificate = () => {
                 <FaCertificate size={50} style={{ color: "#00d8ff" }} className="mb-3" />
                 <h4 className="card-title mb-3" style={{ fontWeight: "bold", color: "#00d8ff" }}>Roadmap To Product Management</h4>
                 <Card.Text>
-                  A certificate demonstrating knowledge of product management fundamentals, 
-                  including roadmap planning, product lifecycle, market research, and 
-                  stakeholder collaboration.
+                  Certificate in product management fundamentals, 
+                  covering roadmap planning, product lifecycle, market research, and stakeholder collaboration.
                 </Card.Text>
                 <div className="mt-3">
                   <span className="badge bg-secondary me-2">Product Roadmap</span>
