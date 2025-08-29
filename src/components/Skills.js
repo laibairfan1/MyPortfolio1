@@ -100,7 +100,7 @@ const Skills = () => {
               <div className="styled-card-content">
                 <FaLaptopCode size={50} style={{ color: "#00d8ff" }} className="mb-3" />
                 <h4 className="mb-2" style={{ fontWeight: 'bold' }}>Front-End Development</h4>
-                <p>I specialize in building responsive and interactive user interfaces using modern front-end frameworks and libraries.</p>
+                <p>I build responsive, interactive user interfaces with modern front-end frameworks</p>
                 <div className="mt-3">
                   <span className="badge bg-secondary me-2 skill-badge">React</span>
                   <span className="badge bg-secondary me-2 skill-badge">JavaScript</span>
@@ -116,7 +116,7 @@ const Skills = () => {
               <div className="styled-card-content">
                 <FaServer size={50} style={{ color: "#00d8ff" }} className="mb-3" />
                 <h4 className="mb-2" style={{ fontWeight: 'bold' }}>Back-End Development</h4>
-                <p>I have experience with building server-side applications and connecting them to databases.</p>
+                <p>I build server-side applications and integrate them with databases.</p>
                 <div className="mt-3">
                   <span className="badge bg-secondary me-2 skill-badge">Node.js</span>
                   <span className="badge bg-secondary me-2 skill-badge">Express</span>
@@ -202,3 +202,4 @@ const Skills = () => {
 };
 
 export default Skills;
+
