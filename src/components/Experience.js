@@ -25,7 +25,7 @@ const experiences = [
 
 const Experience = () => {
   return (
-    <section style={{ padding: "80px 0", background: "#0f2027", color: "#fff" }}>
+    <section id="experience" style={{ padding: "80px 0", background: "#0f2027", color: "#fff" }}>
       <Container>
         <Row className="text-center mb-5">
           <Col>
