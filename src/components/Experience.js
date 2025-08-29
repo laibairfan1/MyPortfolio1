@@ -33,7 +33,7 @@ const Experience = () => {
               My Experience
             </h1>
             <p style={{ color: "#b0b0b0", fontSize: "1.2rem" }}>
-              Internships, Conferences, and Projects
+              Internships, Conferences
             </p>
           </Col>
         </Row>
